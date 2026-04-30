@@ -100,28 +100,31 @@ Unsupervised_NLP_Analysis/
 │   ├── WebOfScience/                       # Web of Science papers
 │   ├── synthetic/                          # LLM-generated synthetic datasets
 │   │   ├── generate.py
-│   │   └── generated_data/
+│   │   └── theme_keys.json
 │
 ├── notebooks/
 │   └── evaluations/                        # Analysis and evaluation notebooks
-│       ├── metric_tables.ipynb
+│       ├── clustering_results.ipynb
 │       ├── clustering_summary_tables.ipynb
+│       ├── dataset_statistics.ipynb
+│       ├── metric_tables.ipynb
 │       ├── visualization_metrics_benchmark.ipynb
 │       └── visualization_metrics_synthetic.ipynb
 ├── results/                                # All pipeline outputs (see results/README.md)
 │   ├── clustering/
 │   │   ├── benchmark/                      # Benchmark clustering + herc scores
 │   │   └── synthetic/                      # Synthetic clustering + herc scores
-│   ├── summary_figures/                    # Scatter grid PNGs (gitignored)
+│   ├── paper_results/                      # Shepard diagram PDFs
+│   ├── summary_figures/                    # Scatter grid PNGs
+│   ├── tables/                             # LaTeX result tables
 │   └── viz_metrics/                        # Visualization quality metric CSVs
 │
 ├── src/
 │   ├── cache/                              # Pipeline cache: embeddings, reductions (gitignored)
 │   ├── custom_packages/                    # Custom algorithm implementations
+│   │   ├── dendrogram_purity.py
 │   │   ├── diffusion_condensation.py
 │   │   ├── fowlkes_mallows.py
-│   │   ├── hercules.py
-│   │   ├── dendrogram_purity.py
 │   │   ├── graph_utils.py
 │   │   └── lca_f1.py
 │   │
