@@ -126,11 +126,6 @@ Unsupervised_NLP_Analysis/
 │       ├── clustering_summary_tables.ipynb
 │       ├── visualization_metrics_benchmark.ipynb
 │       └── visualization_metrics_synthetic.ipynb
-│
-├── paper/                                  # ACL-style paper draft
-│   └── NCEAS_PHATE_Project_for_ACL/
-│       └── latex/
-│
 ├── results/                                # All pipeline outputs (see results/README.md)
 │   ├── clustering/
 │   │   ├── benchmark/                      # Benchmark clustering + herc scores
@@ -172,10 +167,7 @@ Unsupervised_NLP_Analysis/
 ## Deliverables
 
 | Item | Location |
-|------|----------|
-| Final video | [YouTube](https://youtu.be/TDqUafJtfDw?si=tLyg6f4wtddlsphL) |
-| MVP video | [YouTube](https://www.youtube.com/watch?v=YqY4ENxIY1E) |
-| Final report | `paper/NCEAS_PHATE_Project_for_ACL/latex/` |
+|------|----------||
 | Installation instructions | [INSTALL.md](INSTALL.md) |
 | Reproducibility instructions | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
 | Demo notebook | `notebooks/milestones/demo.ipynb` |
