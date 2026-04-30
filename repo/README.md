@@ -196,13 +196,6 @@ Unsupervised_NLP_Analysis/
 
 ---
 
-## Report
-
-The project report (ACL-style paper draft) is available in:
-
-[paper/NCEAS_PHATE_Project_for_ACL/latex/](paper/NCEAS_PHATE_Project_for_ACL/latex/)
-
----
 
 ## Authors
 
