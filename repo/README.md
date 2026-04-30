@@ -10,16 +10,6 @@ The goal of this project is to benchmark dimensionality reduction methods combin
 
 ---
 
-## Videos
-
-### Final Presentation
-[![Final Video Thumbnail](https://img.youtube.com/vi/TDqUafJtfDw/0.jpg)](https://youtu.be/TDqUafJtfDw?si=tLyg6f4wtddlsphL)
-
-### MVP Milestone
-[![MVP Video Thumbnail](https://img.youtube.com/vi/YqY4ENxIY1E/0.jpg)](https://www.youtube.com/watch?v=YqY4ENxIY1E)
-
----
-
 ## Quickstart (HPC Cluster)
 
 Run these at the start of every new terminal session:
