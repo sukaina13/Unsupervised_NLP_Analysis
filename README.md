@@ -55,25 +55,11 @@ Clustering quality is measured against ground truth labels using FM index, Adjus
 
 ---
 
-## Demo
-
-After installing the environment, run:
-
-```bash
-jupyter notebook
-```
-
-Then open `notebooks/milestones/demo.ipynb`. This notebook demonstrates the full pipeline including loading data, generating embeddings, dimensionality reduction, clustering, and visualization.
-
----
-
 ## Reproducibility
 
 For step-by-step instructions to reproduce all figures and results, see:
 
 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)
-
-A Shepard Diagram reproducibility notebook is also available at `notebooks/milestones/Reproducibility.ipynb`.
 
 ---
 
@@ -117,10 +103,6 @@ Unsupervised_NLP_Analysis/
 │   │   └── generated_data/
 │
 ├── notebooks/
-│   ├── milestones/                         # Milestone and demo notebooks
-│   │   ├── demo.ipynb
-│   │   ├── MVP_demo.ipynb
-│   │   └── NCEAS_Reproducibility.ipynb
 │   └── evaluations/                        # Analysis and evaluation notebooks
 │       ├── metric_tables.ipynb
 │       ├── clustering_summary_tables.ipynb
@@ -163,21 +145,6 @@ Unsupervised_NLP_Analysis/
 ```
 
 ---
-
-## Deliverables
-
-| Item | Location |
-|------|----------||
-| Installation instructions | [INSTALL.md](INSTALL.md) |
-| Reproducibility instructions | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
-| Demo notebook | `notebooks/milestones/demo.ipynb` |
-| Reproducibility notebook | `notebooks/milestones/Reproducibility.ipynb` |
-| Benchmark results | `results/clustering/benchmark/` |
-| Synthetic results | `results/clustering/synthetic/` |
-| Visualization metrics | `results/viz_metrics/` |
-
----
-
 
 ## Authors
 
