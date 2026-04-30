@@ -2,7 +2,7 @@
 
 ## milestones/
 
-Class deliverables for CMSE 495. Useful for understanding the project's progression and overall pipeline.
+Milestone deliverables. Useful for understanding the project's progression and overall pipeline.
 
 | Notebook | Description |
 |----------|-------------|

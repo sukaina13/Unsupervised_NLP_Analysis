@@ -1,10 +1,6 @@
-# NCEAS Unsupervised NLP
+# Unsupervised NLP Analysis
 
-CMSE 495 Data Science Capstone, Michigan State University, Spring 2026.
-
-Developed in partnership with Dr. Nathan Brugnone, Maryam Berijanian, and Kuldeep Singh (NCEAS).
-
-**Note:** This project requires a Linux environment with a CUDA-enabled GPU (tested on MSU HPCC).
+**Note:** This project requires a Linux environment with a CUDA-enabled GPU (tested on an HPC cluster with CUDA support).
 
 ---
 
@@ -24,9 +20,9 @@ The goal of this project is to benchmark dimensionality reduction methods combin
 
 ---
 
-## Quickstart (MSU HPCC)
+## Quickstart (HPC Cluster)
 
-Run these at the start of every new terminal session on HPCC:
+Run these at the start of every new terminal session:
 
 ```bash
 module purge
@@ -87,7 +83,7 @@ For step-by-step instructions to reproduce all figures and results, see:
 
 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)
 
-A Shepard Diagram reproducibility notebook is also available at `notebooks/milestones/NCEAS_Reproducibility.ipynb`.
+A Shepard Diagram reproducibility notebook is also available at `notebooks/milestones/Reproducibility.ipynb`.
 
 ---
 
@@ -118,7 +114,7 @@ Running the benchmark pipeline will generate:
 ## Project Structure
 
 ```
-NCEAS_Unsupervised_NLP/
+Unsupervised_NLP_Analysis/
 │
 ├── data/                                   # All datasets and computed outputs
 │   ├── arxiv/                              # arXiv abstracts
@@ -193,7 +189,7 @@ NCEAS_Unsupervised_NLP/
 | Installation instructions | [INSTALL.md](INSTALL.md) |
 | Reproducibility instructions | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
 | Demo notebook | `notebooks/milestones/demo.ipynb` |
-| Reproducibility notebook | `notebooks/milestones/NCEAS_Reproducibility.ipynb` |
+| Reproducibility notebook | `notebooks/milestones/Reproducibility.ipynb` |
 | Benchmark results | `results/clustering/benchmark/` |
 | Synthetic results | `results/clustering/synthetic/` |
 | Visualization metrics | `results/viz_metrics/` |
@@ -210,10 +206,4 @@ The project report (ACL-style paper draft) is available in:
 
 ## Authors
 
-[Jisha Goyal](https://github.com/goyaljis)
-
-[Sidharth Rao](https://github.com/CharlieMalick)
-
-[Sukina Alkhalidy](https://github.com/sukaina13)
-
-[Harshil Chidura](https://github.com/harshil0217)
+Anonymous

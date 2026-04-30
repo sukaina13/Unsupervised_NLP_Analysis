@@ -1,11 +1,11 @@
 # Installation Instructions
-NCEAS Unsupervised NLP 
+Unsupervised NLP Analysis
 
 These instructions reproduce the project environment and run the benchmark pipeline on a Linux system with CUDA support.
 
 
 ## A few Important Notes
-1. This project requires a Linux system with a CUDA-compatible GPU. All experiments are designed to run on an HPC cluster (e.g., MSU HPCC). The pipeline uses GPU-accelerated libraries (cuML, cuPCA, cuUMAP) that are not available on macOS or Windows. For reference, the code in this library was developed and executed with a configuration of 8 CPU cores, 64 GB of RAM, and 2 V100 GPUs.
+1. This project requires a Linux system with a CUDA-compatible GPU. All experiments are designed to run on an HPC cluster. The pipeline uses GPU-accelerated libraries (cuML, cuPCA, cuUMAP) that are not available on macOS or Windows. For reference, the code in this library was developed and executed with a configuration of 8 CPU cores, 64 GB of RAM, and 2 V100 GPUs.
 
 2. Running the full pipeline for all real and synthetic data sources will take hours with most hardware configurations. If you simply wish to run our pipeline end to end, to ensure our code is reproducible, we recommend only running our pipelines for the **RCV1** dataset, which is the smallest of our data sources.
 
@@ -16,15 +16,15 @@ These instructions reproduce the project environment and run the benchmark pipel
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/harshil0217/NCEAS_Unsupervised_NLP.git
-cd NCEAS_Unsupervised_NLP
+git clone <repository-url>
+cd Unsupervised_NLP_Analysis
 ```
 
 ---
 
 ## 2. Create the Project Environment with Conda
 
-**On MSU HPCC**, load the module first:
+**On HPC**, load the module first:
 
 ```bash
 module purge

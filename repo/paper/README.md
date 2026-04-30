@@ -1,6 +1,6 @@
 # Paper
 
-This folder contains the paper for the NCEAS Unsupervised NLP project, written in ACL format.
+This folder contains the paper for the Unsupervised NLP project, written in ACL format.
 
 The draft is located in:
 

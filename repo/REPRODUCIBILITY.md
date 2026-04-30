@@ -1,7 +1,7 @@
-# NCEAS NLP Reproducibility Guide
+# NLP Reproducibility Guide
 
 
-For installation and environment setup, see [INSTALL.md](https://github.com/harshil0217/NCEAS_Unsupervised_NLP/blob/main/INSTALL.md).
+For installation and environment setup, see [INSTALL.md](INSTALL.md).
 
 ---
 
@@ -22,9 +22,9 @@ For installation and environment setup, see [INSTALL.md](https://github.com/hars
 
 ## 1. Setup
 
-Follow [INSTALL.md](https://github.com/harshil0217/NCEAS_Unsupervised_NLP/blob/main/INSTALL.md) to clone the repo, set up the conda environment, and download all datasets.
+Follow [INSTALL.md](INSTALL.md) to clone the repo, set up the conda environment, and download all datasets.
 
-On MSU HPCC, run at the start of every terminal session:
+On HPC, run at the start of every terminal session:
 
 ```bash
 module purge
@@ -115,7 +115,7 @@ This reads 2D reductions from `src/cache/` and labels from `data/synthetic/gener
 python data/download_data.py
 ```
 
-See [INSTALL.md](https://github.com/harshil0217/NCEAS_Unsupervised_NLP/blob/main/INSTALL.md) for Kaggle credentials required for arXiv, Amazon, and DBpedia.
+See [INSTALL.md](INSTALL.md) for Kaggle credentials required for arXiv, Amazon, and DBpedia.
 
 ---
 

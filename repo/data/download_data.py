@@ -262,7 +262,7 @@ if __name__ == "__main__":
     targets = list(DATASETS.keys()) if "all" in args.datasets else args.datasets
 
     print("=" * 50)
-    print("NCEAS NLP -- Data Setup")
+    print("Unsupervised NLP -- Data Setup")
     print("=" * 50)
 
     for name in targets:
