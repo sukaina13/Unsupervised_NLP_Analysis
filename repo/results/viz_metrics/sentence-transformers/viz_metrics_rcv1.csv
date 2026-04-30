@@ -1,0 +1,7 @@
+Method,Trustworthiness_mean,Trustworthiness_std,Continuity_mean,Continuity_std,Spearman_Correlation_mean,Spearman_Correlation_std,DEMaP_mean,DEMaP_std,n_subsamples,subsample_size
+PCA,0.7781,0.0,0.8913,0.0,0.3965,0.0,0.5048,0.0,1,1566
+UMAP,0.9598,0.0,0.9426,0.0,0.4586,0.0,0.6601,0.0,1,1566
+PHATE,0.8233,0.0,0.9063,0.0,0.3821,0.0,0.5745,0.0,1,1566
+PaCMAP,0.936,0.0,0.9333,0.0,0.4219,0.0,0.6321,0.0,1,1566
+TriMAP,0.9357,0.0,0.9325,0.0,0.3723,0.0,0.5848,0.0,1,1566
+tSNE,0.956,0.0,0.9432,0.0,0.4597,0.0,0.6035,0.0,1,1566

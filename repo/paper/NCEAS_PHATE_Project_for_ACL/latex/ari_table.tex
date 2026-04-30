@@ -1,0 +1,22 @@
+\begin{table*}[ht]
+\centering
+\caption{ARI summary by reduction and clustering method. Values are the mean over cluster levels of the median over all parameter sets for each method (\textbf{best}, \textit{second best}).}
+\label{tab:pivot_table}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccccc}
+\toprule
+Reduction method & Clustering method & Web of Science & DBpedia & Amazon & Fisheries (d) & Fisheries (s) & Ecosystems (d) & Ecosystems (s) \\
+\midrule
+PHATE & Diffusion condensation & 0.006 & 0.359 & 0.247 & 0.186 & 0.207 & 0.179 & 0.230 \\
+PHATE & Agglomerative & 0.225 & \textbf{0.467} & 0.315 & \textit{0.210} & \textbf{0.246} & \textit{0.207} & \textbf{0.248} \\
+PHATE & HDBSCAN & 0.000 & 0.008 & 0.001 & 0.015 & 0.019 & 0.082 & 0.097 \\
+PCA & Diffusion condensation & -0.001 & 0.284 & 0.247 & 0.163 & 0.171 & 0.161 & 0.199 \\
+PCA & Agglomerative & \textit{0.252} & 0.380 & \textit{0.343} & 0.182 & \textit{0.240} & 0.147 & \textit{0.245} \\
+PCA & HDBSCAN & -0.000 & 0.000 & -0.000 & 0.055 & 0.000 & 0.033 & 0.113 \\
+UMAP & Diffusion condensation & 0.004 & 0.165 & 0.212 & 0.130 & 0.126 & 0.122 & 0.134 \\
+UMAP & Agglomerative & \textbf{0.280} & \textit{0.418} & \textbf{0.392} & \textbf{0.246} & 0.228 & \textbf{0.229} & 0.229 \\
+UMAP & HDBSCAN & 0.000 & 0.001 & 0.058 & 0.143 & 0.018 & 0.075 & 0.205 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

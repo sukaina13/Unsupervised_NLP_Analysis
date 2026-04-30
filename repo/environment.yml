@@ -1,0 +1,41 @@
+name: phate-env
+channels:
+  - conda-forge
+  - bioconda
+  - rapidsai
+  - nvidia
+dependencies:
+  - python=3.10
+  - cuda-version=12
+  - cudf=26.02
+  - cuml=26.02
+  - networkx
+  - scikit-learn
+  - scipy
+  - nx-cugraph=26.02
+  - pytorch[build=*cuda*]
+  - cuda-cudart
+  - pacmap
+  - python-dotenv
+  - groq
+  - matplotlib
+  - bioconda::phate
+  - tqdm
+  - sentence-transformers
+  - ipykernel
+  - jupyter
+  - nltk
+  - python-annoy
+  - pip
+  - numba
+  - anytree
+  - hdbscan
+  - umap-learn
+  - openpyxl
+  - kaggle
+  - pip:
+    - trimap
+    - apted
+    - accelerate
+    - pyhercules
+  
